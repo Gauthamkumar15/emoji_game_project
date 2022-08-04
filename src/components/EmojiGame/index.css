@@ -1,0 +1,54 @@
+/* Write your code here. */
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+@media (orientation: landscape) {
+  .emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1%;
+  }
+
+  .bg-container {
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+  }
+}
+
+@media (orientation: portrait) {
+  .emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .bg-container {
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    height: 100vh;
+  }
+}

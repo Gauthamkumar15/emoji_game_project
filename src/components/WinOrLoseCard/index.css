@@ -1,0 +1,101 @@
+/* Write your code here. */
+/* Write your code here. */
+/* Write your code here. */
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+@media (orientation: landscape) {
+  .game-result {
+    display: flex;
+    background-color: #9796f0;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #ffffff30;
+    width: 50%;
+  }
+
+  .button {
+    background-color: yellow;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .heading {
+    color: #ffffff;
+  }
+
+  .score {
+    font-size: 150%;
+    color: #ffffff;
+  }
+
+  .value {
+    font-size: 150%;
+    font-weight: bold;
+    color: #6a59ff;
+  }
+
+  .image {
+    margin: 10px;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+  }
+
+  .image2 {
+    width: 100%;
+    object-fit: cover;
+    padding: 15px;
+  }
+}
+
+@media (orientation: portrait) {
+  .game-result {
+    display: flex;
+    flex-direction: column;
+    background-color: #9796f0;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #ffffff30;
+  }
+
+  .image2 {
+    width: 100%;
+    object-fit: cover;
+    padding: 15px;
+  }
+
+  .button {
+    background-color: yellow;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .score1 {
+    font-size: 150%;
+    color: #ffffff;
+  }
+
+  .value {
+    font-size: 150%;
+    font-weight: bold;
+    color: #6a59ff;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

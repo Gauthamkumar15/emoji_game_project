@@ -1,0 +1,46 @@
+/* Write your code here. */
+/* Write your code here. */
+
+@media (orientation: landscape) {
+  .emoji-card {
+    background-color: #9796f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #ffffff30;
+    border-radius: 10px;
+    width: 20%;
+    height: 20vh;
+    margin: 1%;
+  }
+
+  button {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+}
+
+@media (orientation: portrait) {
+  .emoji-card {
+    background-color: #9796f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #ffffff30;
+    border-radius: 10px;
+    width: 20%;
+    height: 10vh;
+    margin: 1%;
+  }
+  .image {
+    width: 70%;
+    object-fit: cover;
+  }
+  button {
+    background-color: transparent;
+    border-style: none;
+  }
+}
